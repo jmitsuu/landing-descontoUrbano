@@ -1,5 +1,5 @@
-import { Button } from "./Button/Button";
-import { Logo } from "./Logo/Logo";
+import { Button } from "./button/Button";
+import { Logo } from "./logo/Logo";
 
 export function Hero() {
  return (
@@ -28,7 +28,7 @@ export function Hero() {
         para ter acesso aos locais turísticos mais requisitados da região e tudo
         isso <span className="font-bold">com descontos exclusivos.</span>
        </p>
-       <Button cn="mt-20" />
+       <Button cn="mt-20" text="clique e baixe o app" link="lorem" />
       </div>
      </div>
      <div>
