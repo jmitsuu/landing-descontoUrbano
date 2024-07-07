@@ -21,7 +21,7 @@ export function Clients() {
     <section className="lg:h-[624px] lg:pt-0 pt-20 pb-20 lg:pb-0 bg-[#1f331e]">
       <div className="w-full h-full   mx-auto container flex flex-col justify-center items-center">
         <div className="mx-auto mb-10 w-[336px] text-center">
-          <h1 className=" text-[35px] text-medium">
+          <h1 className=" md:text-[35px] text-[30px] text-medium">
             Conheça alguns dos{' '}
             <span className="text-light font-bold"> nossos parceiros</span>
           </h1>

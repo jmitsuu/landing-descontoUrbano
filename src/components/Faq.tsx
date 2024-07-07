@@ -1,15 +1,22 @@
+import { Dropdown } from './faq/Dropdown';
+
 const arrQuestions = [
   {
-    title: 'Como faço para baixar o Desconto Urbano'
+    title: 'Como faço para baixar o Desconto Urbano?',
+    description:
+      'Lorem Ipsum is simply dummy text of the printing and typesetting industry.'
   },
   {
-    title: 'Quais são os benefícios exclusivos da assinatura?'
+    title: 'Quais são os benefícios exclusivos da assinatura?',
+    description: 'resposta 02'
   },
   {
-    title: 'Como posso personalizar meu guia no aplicativo?'
+    title: 'Como posso personalizar meu guia no aplicativo?',
+    description: 'resposta 03'
   },
   {
-    title: 'Posso cancelar minha assinatura a qualquer momento?'
+    title: 'Posso cancelar minha assinatura a qualquer momento?',
+    description: 'resposta 04'
   }
 ];
 
@@ -24,24 +31,15 @@ export function Faq() {
             </span>
           </h1>
         </div>
-        <div className="xl:mt-32 mt-10">
-          <h1 className="font-bold text-heavy lg:text-[35px] text-[20px]">
+        <div className="md:mt-32 mt-2 transition-all duration-300">
+          <h1 className="font-bold text-heavy lg:text-[35px] text-[20px] ">
             Perguntas frequentes
           </h1>
-          <div className="h-full mt-10">
+          <div className="mt-10">
             {arrQuestions.map((item) => {
               return (
-                <div
-                  key={item.title}
-                  className="gap-4 xl:w-[926px] lg:h-[66px] h-[53px] my-2 bg-heavy flex items-center justify-between lg:px-10 px-5 rounded-lg cursor-pointer"
-                >
-                  <h2 className="xl:text-[25px] lg:text-[15px] text-[10px] text-medium ">
-                    {item.title}
-                  </h2>
-                  <img
-                    src="../src/assets/images/icons/polygon.png"
-                    className="cursor-pointer"
-                  />
+                <div>
+                  <Dropdown title={item.title} description={item.description} />
                 </div>
               );
             })}

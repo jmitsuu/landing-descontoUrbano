@@ -12,7 +12,7 @@ export function Hero() {
               </h1>
             </div>
             <div className="text-left px-2 text-[#6aed64]">
-              <p className="md:mt-8 mt-2 2xl:text-[50px] md:text-[40px] text-[16px]  ">
+              <p className="md:mt-8 mt-3 2xl:text-[50px] md:text-[40px] text-[16px]  ">
                 Seu{' '}
                 <span className="2xl:text-[55px] md:text-[48px] text-[19px]  font-bold">
                   {' '}
@@ -39,7 +39,11 @@ export function Hero() {
                 src="../src/assets/images/desconto.png"
                 className="lg:hidden mt-10 md:h-[200px] h-[150px] mx-auto"
               />
-              <Link cn="2xl:mt-40 mt-8" text="clique e baixe o app" link="lorem" />
+              <Link
+                cn="2xl:mt-40 mt-8"
+                text="clique e baixe o app"
+                link="lorem"
+              />
             </div>
           </div>
           <div className="lg:ml-20">

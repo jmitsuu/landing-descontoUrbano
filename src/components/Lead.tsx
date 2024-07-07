@@ -3,7 +3,7 @@ import { Link } from './button/Link';
 export function Lead() {
   return (
     <section className="h-full relative  bg-[#F1F1F1]  flex md:flex-row flex-col items-end ">
-      <div className="w-full z-50 h-full   pt-20 mx-auto   container flex md:flex-row flex-col items-end ">
+      <div className="w-full z-50 h-full   pt-10 mx-auto   container flex md:flex-row flex-col items-end ">
         <div className="w-full   mb-20  flex flex-col justify-center items-center lg:items-start">
           <div className="lg:w-[591px] w-[300px] sm:w-[500px]">
             <h1 className="font-bold md:text-[35px] text-[28px] text-mediumlight  ">
