@@ -8,10 +8,10 @@ export function Card() {
               <div className="w-3 h-3 rounded-full bg-heavy mx-auto absolute -right-1"></div>
             </div>
             <div className="text-left m-2 lg:px-4 h-full lg:py-8 z-50">
-              <h1 className="lg:text-[20px] text-[12px]  font-bold text-light uppercase">
+              <h1 className="lg:text-[20px] text-[12px]  font-bold text-medium uppercase">
                 Descontos Exclusivos,
               </h1>
-              <p className="text-medium lg:text-[15px] text-[10px]">
+              <p className="text-light lg:text-[15px] text-[10px]">
                 Proporciando uma verdadeira festa para o seu bolso.
               </p>
             </div>
@@ -21,10 +21,10 @@ export function Card() {
               <div className="w-3 h-3 rounded-full bg-heavy mx-auto absolute -right-1"></div>
             </div>
             <div className="text-left m-2 lg:px-4 h-full lg:py-8 z-50">
-              <h1 className="lg:text-[20px] text-[12px]  font-bold text-light uppercase">
+              <h1 className="lg:text-[20px] text-[12px]  font-bold text-medium  uppercase">
                 Mais Economia, Mais Lugares
               </h1>
-              <p className="text-medium lg:text-[15px] text-[10px]">
+              <p className="text-light lg:text-[15px] text-[10px]">
                 para conhecer e menos desculpas para não explorar.
               </p>
             </div>
@@ -40,10 +40,10 @@ export function Card() {
               <div className="w-3 h-3 rounded-full bg-heavy mx-auto absolute -right-1"></div>
             </div>
             <div className="text-left m-2 lg:px-4 h-full lg:py-8 z-50">
-              <h1 className="lg:text-[20px] text-[12px]  font-bold text-light uppercase">
+              <h1 className="lg:text-[20px] text-[12px]  font-bold text-medium  uppercase">
                 guia completo
               </h1>
-              <p className="text-medium lg:text-[15px] text-[10px]">
+              <p className="text-light lg:text-[15px] text-[10px]">
                 para conhecer o melhor dos lagos.
               </p>
             </div>
@@ -54,10 +54,10 @@ export function Card() {
               <div className="w-3 h-3 rounded-full bg-heavy mx-auto absolute -right-1"></div>
             </div>
             <div className="text-left m-2 lg:px-4 h-full lg:py-8 z-50">
-              <h1 className="lg:text-[20px] text-[12px]  font-bold text-light uppercase">
+              <h1 className="lg:text-[20px] text-[12px]  font-bold text-medium  uppercase">
                 Locais requisitados e aprovados
               </h1>
-              <p className="text-medium lg:text-[15px] text-[10px]">
+              <p className="text-light lg:text-[15px] text-[10px]">
                 pelos nossos assinantes.
               </p>
             </div>
