@@ -35,7 +35,9 @@ export function Faq() {
                   key={item.title}
                   className="gap-4 xl:w-[926px] lg:h-[66px] h-[53px] my-2 bg-heavy flex items-center justify-between lg:px-10 px-5 rounded-lg cursor-pointer"
                 >
-                  <h2 className="xl:text-[25px] lg:text-[15px] text-[10px] text-medium ">{item.title}</h2>
+                  <h2 className="xl:text-[25px] lg:text-[15px] text-[10px] text-medium ">
+                    {item.title}
+                  </h2>
                   <img
                     src="../src/assets/images/icons/polygon.png"
                     className="cursor-pointer"
