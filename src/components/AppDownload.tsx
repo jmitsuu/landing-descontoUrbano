@@ -1,48 +1,48 @@
-import { Button } from "./button/Button";
-
 export function AppDownload() {
- return (
-  <section className="h-full bg-heavy">
-   <div className="w-full h-full flex">
-    <div className="w-full h-full px-48">
-     <div className="mt-20">
-      <h1 className="font-bold text-[96px] text-medium">Baixe agora</h1>
-      <span className="text-light text-[55px]">nosso app</span>
-     </div>
-     <div className="mt-10 flex gap-x-20">
-      <div className="lg:w-[369px] lg:h-[340px] rounded-lg bg-[#3a683c] border border-light flex flex-col justify-center items-center">
-       <h1 className="text-medium font-bold text-[24px]">iOS</h1>
-       <img
-        src="../src/assets/images/icons/appstore.png"
-        className="w-[260px]"
-       />
-       <a
-        href=""
-        className={` w-80 h-[66px] mt-10 rounded-full text-white text-[20px] font-bold uppercase bg-[#04BA21] flex items-center justify-center `}
-       >
-        baixar app
-       </a>
+  return (
+    <section className=" lg:h-[798px] md:h-[500px] sm:h-[400px] overflow-hidden bg-heavy">
+      <div className="w-full h-full  flex">
+        <div className=" h-full lg:pl-4 p-4 lg:p-0 w-full ">
+          <div className="lg:mt-20 md:mt-10 md:pl-5 lg:pl-20">
+            <h1 className="font-bold lg:text-[96px] md:text-[40px] text-[30px] text-medium">
+              Baixe agora
+            </h1>
+            <span className="text-light md:text-[55px]">nosso app</span>
+          </div>
+          <div className="mt-10 sm:flex  justify-around pr-2">
+            <div className="xl:w-[369px] xl:h-[340px] lg:w-[349px] lg:h-[330px] sm:mr-2  lg:p-0 p-5 w-[179px] h-[150px] rounded-lg bg-[#3a683c] border border-light flex flex-col justify-center items-center">
+              <h1 className="text-medium font-bold text-[24px]">iOS</h1>
+              <img
+                src="../src/assets/images/icons/appstore.png"
+                className="lg:w-[260px] md:w-[170px] w-[160px]"
+              />
+              <a
+                href=""
+                className={` lg:w-80  w-36 p-2 h-[66px] lg:mt-10 rounded-full text-white lg:text-[20px] font-bold uppercase bg-[#04BA21] flex items-center justify-center `}
+              >
+                baixar app
+              </a>
+            </div>
+            <div className="xl:w-[369px] xl:h-[340px] lg:w-[349px] lg:h-[330px] sm:mt-0 mt-2   lg:p-0 p-5 w-[179px] h-[150px] rounded-lg bg-[#3a683c] border border-light flex flex-col justify-center items-center">
+              <h1 className="text-medium font-bold text-[24px]">Android</h1>
+              <img
+                src="../src/assets/images/icons/appstore.png"
+                className="lg:w-[260px] md:w-[170px] w-[160px]"
+              />
+              <a
+                href=""
+                className={` lg:w-80  w-36 p-2 h-[66px] lg:mt-10 rounded-full text-white lg:text-[20px] font-bold uppercase bg-[#04BA21] flex items-center justify-center `}
+              >
+                baixar app
+              </a>
+            </div>
+          </div>
+        </div>
+        <img
+          src="../src/assets/images/sideImg.jpeg"
+          className="xl:w-[400px] lg:w-[537px] md:w-[300px] w-[360px]  lg:float-right"
+        />
       </div>
-      <div className="lg:w-[369px] lg:h-[340px] rounded-lg bg-[#3a683c] border border-light flex flex-col justify-center items-center">
-       <h1 className="text-medium font-bold text-[24px]">iOS</h1>
-       <img
-        src="../src/assets/images/icons/appstore.png"
-        className="w-[260px]"
-       />
-          <a
-        href=""
-        className={` w-80 h-[66px] mt-10 rounded-full text-white text-[20px] font-bold uppercase bg-[#04BA21] flex items-center justify-center `}
-       >
-        baixar app
-       </a>
-      </div>
-     </div>
-    </div>
-    <img
-     src="../src/assets/images/sideImg.jpeg"
-     className="lg:w-[537px] h-[798px] lg:float-right"
-    />
-   </div>
-  </section>
- );
+    </section>
+  );
 }
