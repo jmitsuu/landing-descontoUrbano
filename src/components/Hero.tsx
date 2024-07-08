@@ -1,5 +1,5 @@
 import { Link } from './button/Link';
-
+import desconto from "../assets/images/desconto.png"
 export function Hero() {
   return (
     <section className="2xl:h-[1300px] xl:h-[1104px] lg:h-[1000px] md:h-full   h-[700px] overflow-hidden ">
@@ -36,7 +36,7 @@ export function Hero() {
                 <span className="font-bold">com descontos exclusivos.</span>
               </p>
               <img
-                src="../src/assets/images/desconto.png"
+                src={desconto}
                 className="lg:hidden mt-10 md:h-[200px] h-[150px] mx-auto"
               />
               <Link
@@ -49,7 +49,7 @@ export function Hero() {
           <div className="lg:ml-20">
             {/* <Off /> */}
             <img
-              src="../src/assets/images/desconto.png"
+              src={desconto}
               className="lg:block hidden"
             />
           </div>

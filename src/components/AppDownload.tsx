@@ -1,3 +1,6 @@
+import playstore from "../assets/images/icons/playstore.png";
+import applestore from  "../assets/images/icons/appstore.png";
+import sideImg from "../assets/images/sideImg.jpeg"
 export function AppDownload() {
   return (
     <section className=" lg:h-[798px] md:h-[500px] sm:h-[400px] overflow-hidden bg-heavy">
@@ -13,7 +16,7 @@ export function AppDownload() {
             <div className="xl:w-[369px] xl:h-[340px] lg:w-[349px] lg:h-[330px] sm:mr-2  lg:p-0 p-5 w-[179px] h-[150px] rounded-lg bg-[#3a683c] border border-light flex flex-col justify-center items-center">
               <h1 className="text-medium font-bold text-[24px]">iOS</h1>
               <img
-                src="../src/assets/images/icons/appstore.png"
+                src={applestore}
                 className="lg:w-[250px] md:w-[160px] w-[160px]"
               />
               <a
@@ -26,7 +29,7 @@ export function AppDownload() {
             <div className="xl:w-[369px] xl:h-[340px] lg:w-[349px] lg:h-[330px] sm:mt-0 mt-2   lg:p-0 p-5 w-[179px] h-[150px] rounded-lg bg-[#3a683c] border border-light flex flex-col justify-center items-center">
               <h1 className="text-medium font-bold text-[24px]">Android</h1>
               <img
-                src="../src/assets/images/icons/playstore.png"
+                src={playstore}
                 className="lg:w-[260px] md:w-[170px] w-[160px]"
               />
               <a
@@ -39,7 +42,7 @@ export function AppDownload() {
           </div>
         </div>
         <img
-          src="../src/assets/images/sideImg.jpeg"
+          src={sideImg}
           className="2xl:w-[600px] lg:w-[537px] md:w-[300px] w-[360px]  lg:float-right"
         />
       </div>

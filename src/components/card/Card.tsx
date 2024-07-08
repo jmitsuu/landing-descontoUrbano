@@ -1,3 +1,4 @@
+import phoneImg from "../../assets/images/mobile/mobimg.png"
 export function Card() {
   return (
     <section className="  relative h-full w-full z-50 pb-20 ">
@@ -31,7 +32,7 @@ export function Card() {
           </div>
         </div>
         <img
-          src="../../src/assets/images/mobile/mobimg.png"
+          src={phoneImg}
           className="absolute md:bottom-0 md:-top-20 md:-left-3 lg:-top-20 sm:bottom-0  xs:bottom-2 bottom-20 sm:left-16  mx-auto sm:h-full h-[300px]  2xl:left-40 "
         />
         <div className="absolute lg:top-44 top-14 md:right-20 sm:right-0 lg:right-32 2xl:right-48  right-0 p-5">

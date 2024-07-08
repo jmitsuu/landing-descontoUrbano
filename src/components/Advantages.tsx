@@ -1,16 +1,19 @@
+import icon3 from "../assets/images/icons/icon3.png"
+import icon2 from "../assets/images/icons/icon1.png"
+import icon1 from "../assets/images/icons/icon2.png"
 const arrAdvantages = [
   {
-    icon: '../src/assets/images/icons/icon3.png',
+    icon: icon3,
     title: '+ de 250',
     subtitle: 'restaurantes parceiros'
   },
   {
-    icon: '../src/assets/images/icons/icon1.png',
+    icon: icon1,
     title: '+ de R$ 7.000,00',
     subtitle: 'em descontos'
   },
   {
-    icon: '../src/assets/images/icons/icon2.png',
+    icon: icon2,
     title: '+ de 100 km',
     subtitle: 'para você conhecer'
   }

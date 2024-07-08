@@ -1,5 +1,6 @@
 import { Link } from './button/Link';
-
+import logov2 from "../assets/images/logov2.png"
+import bgphone from "../assets/images/bgphone.png"
 export function Lead() {
   return (
     <section className="h-full relative  bg-[#F1F1F1]  flex md:flex-row flex-col items-end ">
@@ -9,7 +10,7 @@ export function Lead() {
             <h1 className="font-bold md:text-[35px] text-[28px] text-mediumlight  ">
               Por que eu preciso do
             </h1>
-            <img src="../src/assets/images/logov2.png" className="h-[50px]  " />
+            <img src={logov2} className="h-[50px]  " />
           </div>
           <div className="mt-10 text-[18px] xl:w-[591px] w-[300px] sm:w-[500px]">
             <div className="text-mediumlight">
@@ -53,7 +54,7 @@ export function Lead() {
               </p>
             </div>
             <img
-              src="../src/assets/images/bgphone.png"
+              src={bgphone}
               className="lg:hidden block mx-auto"
             />
             <Link cn="mt-10" text="clique e baixe o app" link="lorem" />
@@ -61,7 +62,7 @@ export function Lead() {
         </div>
       </div>
       <img
-        src="../src/assets/images/bgphone.png"
+        src={bgphone}
         className="absolute right-0 h-full lg:block hidden "
       />
     </section>

@@ -1,4 +1,5 @@
 import { useState } from 'react';
+import polygon from "../../assets/images/icons/polygon.png"
 interface typeQuestions {
   title: string;
   description: string;
@@ -25,7 +26,7 @@ export function Dropdown({ title, description }: typeQuestions) {
           </h2>
 
           <img
-            src="../src/assets/images/icons/polygon.png"
+            src={polygon}
             className={`cursor-pointer ${isOpen ? 'rotate-180 ' : ''}`}
           />
         </div>
