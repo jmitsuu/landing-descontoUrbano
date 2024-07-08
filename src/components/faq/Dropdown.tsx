@@ -31,7 +31,7 @@ export function Dropdown({ title, description }: typeQuestions) {
           />
         </div>
         {isOpen && (
-          <div className=" px-4 py-2 lg:w-[926px] md:w-[606px] w-[200px]  text-light bg-heavy  rounded-md  z-50">
+          <div className=" px-4 py-2 2xl:w-[926px] md:w-full w-full max-w-[926px]  text-light bg-heavy  rounded-md  z-50">
             <p className="xl:text-[20px]  lg:text-[15px] text-[10px] ">
               {description}
             </p>

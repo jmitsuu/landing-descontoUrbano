@@ -6,13 +6,13 @@ export function AppDownload() {
     <section className=" lg:h-[798px] md:h-[500px] sm:h-[400px] overflow-hidden bg-heavy">
       <div className="w-full h-full  flex">
         <div className=" h-full lg:pl-4 p-4 lg:p-0 w-full my-5 ">
-          <div className="lg:mt-20 md:mt-10 md:pl-5 lg:pl-20">
+          <div className="lg:mt-20 md:mt-10 md:pl-5 2xl:pl-72">
             <h1 className="font-bold lg:text-[96px] md:text-[40px] text-[30px] text-medium">
               Baixe agora
             </h1>
             <span className="text-light md:text-[55px]">nosso app</span>
           </div>
-          <div className="mt-10 sm:flex  md:pl-5 2xl:pl-20 2xl:gap-40 pr-2">
+          <div className="mt-10 sm:flex  md:pl-5 2xl:pl-72 2xl:gap-40 pr-2">
             <div className="xl:w-[369px] xl:h-[340px] lg:w-[349px] lg:h-[330px] sm:mr-2  lg:p-0 p-5 w-[179px] h-[150px] rounded-lg bg-[#3a683c] border border-light flex flex-col justify-center items-center">
               <h1 className="text-medium font-bold text-[24px]">iOS</h1>
               <img
@@ -43,7 +43,7 @@ export function AppDownload() {
         </div>
         <img
           src={sideImg}
-          className="2xl:w-[600px] lg:w-[537px] md:w-[300px] w-[360px]  lg:float-right"
+          className="2xl:w-[900px] lg:w-[537px] md:w-[300px] w-[360px]  lg:float-right"
         />
       </div>
     </section>

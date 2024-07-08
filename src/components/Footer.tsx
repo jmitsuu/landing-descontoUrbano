@@ -20,7 +20,7 @@ export function Footer() {
           </div>
         </div>
         <div className="h-[80px] w-full flex items-center justify-center">
-          LOGO ELEVEN
+          <img src=" " alt="Eleven" />
         </div>
       </div>
     </footer>

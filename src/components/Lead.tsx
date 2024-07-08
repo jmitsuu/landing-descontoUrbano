@@ -6,13 +6,13 @@ export function Lead() {
     <section className="h-full relative  bg-[#F1F1F1]  flex md:flex-row flex-col items-end ">
       <div className="w-full z-50 h-full   pt-10 mx-auto   container flex md:flex-row flex-col items-end ">
         <div className="w-full   mb-20  flex flex-col justify-center items-center lg:items-start">
-          <div className="lg:w-[591px] w-[300px] sm:w-[500px]">
+          <div className="lg:w-[600px] w-[300px] sm:w-[500px]">
             <h1 className="font-bold md:text-[35px] text-[28px] text-mediumlight  ">
               Por que eu preciso do
             </h1>
             <img src={logov2} className="h-[50px]  " />
           </div>
-          <div className="mt-10 text-[18px] xl:w-[591px] w-[300px] sm:w-[500px]">
+          <div className="mt-12 lg:text-[18px] 2xl:text-[25px]  xl:w-[600px] w-[300px] sm:w-[500px]">
             <div className="text-mediumlight">
               <p className="font-bold">
                 {' '}
@@ -40,10 +40,10 @@ export function Lead() {
               </p>
             </div>
             <div className="  mt-10  ">
-              <h1 className="font-bold text-mediumlight text-[26px] ">
+              <h1 className="font-bold text-mediumlight text-[28px] ">
                 Tá esperando o quê?
               </h1>
-              <p className="mt-10 text-[18px] text-mediumlight ">
+              <p className="mt-10 lg:text-[24px] text-mediumlight ">
                 Clique para baixar o app e venha viver toda a experiência deste
                 local
                 <span className="font-bold">
