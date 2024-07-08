@@ -2,8 +2,8 @@ export function Card() {
   return (
     <section className="  relative h-full w-full z-50 pb-20 ">
       <div className="w-full h-full relative mb-10 mt-5  md:p-0 p-5 ">
-        <div className="absolute lg:top-56 md:top-32  top-20 z-50 md:left-20 lg:left-32 sm:left-20 2xl:left-48">
-          <div className=" bg-heavy lg:w-[264px] lg:h-[177px] w-[120px]   relative rounded-xl  flex justify-center items-center ">
+        <div className="absolute lg:top-56 md:top-32   top-20 z-50 md:left-20 lg:left-32 sm:left-20 2xl:left-48">
+          <div className=" bg-heavy lg:w-[264px] lg:h-[177px] w-[120px] min-h-[100px]   relative rounded-xl  flex justify-center items-center ">
             <div className="absolute -right-1 md:rotate-[145deg] rotate-45 h-full  w-[0.1rem] bg-heavy -mr-2 ">
               <div className="w-3 h-3 rounded-full bg-heavy mx-auto absolute -right-1"></div>
             </div>
@@ -16,7 +16,7 @@ export function Card() {
               </p>
             </div>
           </div>
-          <div className=" bg-heavy lg:w-[264px] lg:h-[177px] w-[120px]  mt-5  relative rounded-xl  flex justify-center items-center ">
+          <div className=" bg-heavy lg:w-[264px] lg:h-[177px] w-[120px] min-h-[100px]   mt-5  relative rounded-xl  flex justify-center items-center ">
             <div className="absolute -right-1 md:rotate-45 rotate-45 h-full  w-[0.1rem] bg-heavy -mr-2 ">
               <div className="w-3 h-3 rounded-full bg-heavy mx-auto absolute -right-1"></div>
             </div>
@@ -32,10 +32,10 @@ export function Card() {
         </div>
         <img
           src="../../src/assets/images/mobile/mobimg.png"
-          className="absolute md:bottom-0 md:-top-20 lg:-top-20 sm:bottom-0  xs:bottom-2 bottom-20 h-[300px] sm:h-full 2xl:left-40 "
+          className="absolute md:bottom-0 md:-top-20 md:-left-3 lg:-top-20 sm:bottom-0  xs:bottom-2 bottom-20 sm:left-16  mx-auto sm:h-full h-[300px]  2xl:left-40 "
         />
-        <div className="absolute lg:top-44 top-20 md:right-20 sm:right-20 lg:right-32 2xl:right-48  right-0 p-5">
-          <div className=" bg-heavy lg:w-[264px] lg:h-[177px] w-[120px]   relative rounded-xl  flex justify-center items-center ">
+        <div className="absolute lg:top-44 top-14 md:right-20 sm:right-0 lg:right-32 2xl:right-48  right-0 p-5">
+          <div className=" bg-heavy lg:w-[264px] lg:h-[177px] w-[120px] min-h-[100px]    relative rounded-xl  flex justify-center items-center ">
             <div className="absolute -left-1 md:-rotate-[145deg] -rotate-45 h-full  w-[0.1rem] bg-heavy -mr-2 ">
               <div className="w-3 h-3 rounded-full bg-heavy mx-auto absolute -right-1"></div>
             </div>
@@ -49,7 +49,7 @@ export function Card() {
             </div>
           </div>
 
-          <div className=" bg-heavy lg:w-[264px] lg:h-[177px] w-[120px]  mt-5  relative rounded-xl  flex justify-center items-center ">
+          <div className=" bg-heavy lg:w-[264px] lg:h-[177px] w-[120px] min-h-[100px]   mt-5  relative rounded-xl  flex justify-center items-center ">
             <div className="absolute -left-1 md:-rotate-45 -rotate-45 h-full  w-[0.1rem] bg-heavy -mr-2 ">
               <div className="w-3 h-3 rounded-full bg-heavy mx-auto absolute -right-1"></div>
             </div>
