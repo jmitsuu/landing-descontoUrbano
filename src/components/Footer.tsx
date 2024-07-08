@@ -5,7 +5,7 @@ export function Footer() {
       <div className="w-full h-full bg-heavy">
         <div className="w-full h-full container mx-auto flex flex-col justify-center items-center">
           <img src={logo} className="h-[50px]  " />
-          <div className="mt-5 uppercase text-center  text-[10px] text-medium">
+          <div className="mt-5 uppercase text-center  md:text-[15px] text-[12px] text-medium">
             <h2 className=" ">
               @2024 Desconto Urbano. Todos os direitos resevados.
             </h2>
