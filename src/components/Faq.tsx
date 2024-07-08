@@ -31,7 +31,7 @@ export function Faq() {
             </span>
           </h1>
         </div>
-        <div className="lg:mt-32 mt-2 transition-all duration-300  z-50">
+        <div className="lg:mt-20 mt-2 transition-all duration-300  z-50">
           <h1 className="font-bold text-heavy lg:text-[35px] text-[20px] ">
             Perguntas frequentes
           </h1>
@@ -46,7 +46,7 @@ export function Faq() {
           </div>
  
         </div>
-        <img src={simbolo} className='absolute lg:h-96 h-40 top-0 right-0 opacity-15'/>
+        <img src={simbolo} className='absolute  lg:h-96 h-40 top-0 right-0 2xl:right-10 opacity-10'/>
       </div>
     </section>
   );
