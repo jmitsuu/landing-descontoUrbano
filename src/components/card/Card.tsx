@@ -32,7 +32,7 @@ export function Card() {
         </div>
         <img
           src="../../src/assets/images/mobile/mobimg.png"
-          className="absolute md:bottom-0 md:top-5 lg:-top-20 sm:bottom-0  xs:bottom-2 bottom-20 h-[300px] sm:h-full md:w-full"
+          className="absolute md:bottom-0 md:-top-20 lg:-top-20 sm:bottom-0  xs:bottom-2 bottom-20 h-[300px] sm:h-full 2xl:left-40 "
         />
         <div className="absolute lg:top-44 top-20 md:right-20 sm:right-20 lg:right-32 2xl:right-48  right-0 p-5">
           <div className=" bg-heavy lg:w-[264px] lg:h-[177px] w-[120px]   relative rounded-xl  flex justify-center items-center ">
