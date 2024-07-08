@@ -33,9 +33,9 @@ export function Card() {
         </div>
         <img
           src={phoneImg}
-          className="absolute md:bottom-0 md:-top-20 md:-left-3 lg:-top-20 sm:bottom-0  xs:bottom-2 bottom-20 sm:left-16  mx-auto sm:h-full h-[300px]  2xl:left-40 "
+          className=" 2xl:scale-75 xl:scale-75 lg:scale-75 sm:scale-125 scale-125 "
         />
-        <div className="absolute lg:top-44 top-14 md:right-20 sm:right-0 lg:right-32 2xl:right-48  right-0 p-5">
+        <div className="absolute lg:top-44 top-10 md:right-20 sm:right-0 lg:right-32 2xl:right-48  right-0 p-5">
           <div className=" bg-heavy lg:w-[264px] lg:h-[177px] w-[120px] min-h-[100px]    relative rounded-xl  flex justify-center items-center ">
             <div className="absolute -left-1 md:-rotate-[145deg] -rotate-45 h-full  w-[0.1rem] bg-heavy -mr-2 ">
               <div className="w-3 h-3 rounded-full bg-heavy mx-auto absolute -right-1"></div>

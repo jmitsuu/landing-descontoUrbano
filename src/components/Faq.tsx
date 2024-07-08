@@ -22,20 +22,20 @@ const arrQuestions = [
 
 export function Faq() {
   return (
-    <section className="h-full  overflow-hidden bg-[#F1F1F1] ">
-      <div className="container m-10 h-full w-full mx-auto flex p-2 relative ">
-        <div className=" flex h-full  w-[220px]  items-center disabled ">
-          <h1 className=" font-bold text-light/20 relative w-20 space-y-0 ">
-            <span className="block xl:text-[220px]  lg:text-[150px] text-[130px] leading-none select-none">
+    <section className="min-h-[600px]  relative pb-20 overflow-hidden bg-[#F1F1F1] ">
+      <div className="container m-10 h-full w-full mt-20  mx-auto flex   ">
+        <div className=" flex h-full  w-[220px]  items-center disabled top-0 absolute ">
+          <h1 className=" font-bold text-light/20  w-20 space-y-0  flex h-full items-center disabled  absolute">
+            <span className="flex xl:text-[9em]  lg:text-[9.3em] text-[8.1em] leading-none select-none">
               F A Q
             </span>
           </h1>
         </div>
-        <div className="lg:mt-20 mt-2 transition-all duration-300  z-50">
-          <h1 className="font-bold text-heavy lg:text-[35px] text-[20px] ">
+        <div className="transition-all duration-300  z-50  w-full mx-auto lg:pl-40  ">
+          <h1 className="font-bold text-heavy lg:text-[2.3em] text-[1.4em] md:text-left text-center ">
             Perguntas frequentes
           </h1>
-          <div className="mt-10">
+          <div className="mt-5 z-50 absolute md:pr-0 md:pl-0 pl-10 pr-10">
             {arrQuestions.map((item) => {
               return (
                 <div className=' z-50'>

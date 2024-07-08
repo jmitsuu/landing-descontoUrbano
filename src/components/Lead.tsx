@@ -4,15 +4,15 @@ import bgphone from "../assets/images/bgphone.png"
 export function Lead() {
   return (
     <section className="h-full relative  bg-[#F1F1F1]  flex md:flex-row flex-col items-end ">
-      <div className="w-full z-50 h-full   pt-10 mx-auto   container flex md:flex-row flex-col items-end ">
-        <div className="w-full   mb-20  flex flex-col justify-center items-center lg:items-start">
-          <div className="lg:w-[600px] w-[300px] sm:w-[500px]">
-            <h1 className="font-bold md:text-[35px] text-[28px] text-mediumlight  ">
+      <div className="w-full z-50 h-full     mx-auto   container  flex md:flex-row flex-col items-end ">
+        <div className="w-full flex flex-col justify-center py-20 md:pl-10  items-center md:items-start">
+          <div className="lg:w-[600px] w-[300px] sm:w-[500px] md:w-[700px] ">
+            <h1 className="font-bold md:text-[2.2em] px-2 text-[1.7em] text-mediumlight  ">
               Por que eu preciso do
             </h1>
-            <img src={logov2} className="h-[50px]  " />
+            <img src={logov2} className="h-[50px]  px-2" />
           </div>
-          <div className="mt-12 lg:text-[18px] 2xl:text-[25px]  xl:w-[600px] w-[300px] sm:w-[500px]">
+          <div className="mt-12 lg:text-[1.2em] px-2 2xl:text-[1.2em]  xl:w-[600px] lg:w-[500px] md:w-[700px] w-[300px] sm:w-[500px]">
             <div className="text-mediumlight">
               <p className="font-bold">
                 {' '}
@@ -43,7 +43,7 @@ export function Lead() {
               <h1 className="font-bold text-mediumlight text-[28px] ">
                 Tá esperando o quê?
               </h1>
-              <p className="mt-10 lg:text-[24px] text-mediumlight ">
+              <p className="mt-10 lg:text-[1.2rem] text-mediumlight ">
                 Clique para baixar o app e venha viver toda a experiência deste
                 local
                 <span className="font-bold">

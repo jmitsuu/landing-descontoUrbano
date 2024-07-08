@@ -18,15 +18,15 @@ const company = [
 ];
 export function Clients() {
   return (
-    <section className="lg:h-[624px] lg:pt-0 pt-20 pb-20 lg:pb-0 bg-[#1f331e]">
-      <div className="w-full h-full   mx-auto container flex flex-col justify-center items-center">
-        <div className="mx-auto mb-10 w-[336px] text-center">
+    <section className="lg:h-[624px] lg:pt-0 py-20  lg:pb-0 bg-[#1f331e] overflow-x-hidden">
+      <div className="w-full h-full   mx-auto container flex flex-col justify-center items-center ">
+        <div className="mx-auto w-[336px] text-center ">
           <h1 className=" md:text-[35px] text-[30px] text-medium">
             Conheça alguns dos{' '}
             <span className="text-light font-bold"> nossos parceiros</span>
           </h1>
         </div>
-        <div className="gap-5 grid lg:grid-cols-4  sm:grid-cols-2 grid-cols-2 lg:gap-x-8 items-center">
+        <div className="gap-5 grid md:grid-cols-4  sm:grid-cols-2 grid-cols-2 lg:gap-x-8 items-center">
           {company.map((item) => {
             return (
               <div
