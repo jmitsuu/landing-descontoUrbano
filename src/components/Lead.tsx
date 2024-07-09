@@ -1,19 +1,19 @@
 import { Link } from './button/Link';
-import logov2 from "../assets/images/logov2.png"
-import bgphone from "../assets/images/bgphone.png"
+import logov2 from '../assets/images/logov2.png';
+import bgphone from '../assets/images/bgphone.png';
 export function Lead() {
   return (
     <section className="h-full relative  bg-[#F1F1F1]  flex md:flex-row flex-col items-end ">
       <div className="w-full z-50 h-full     mx-auto   container  flex md:flex-row flex-col items-end ">
-        <div className="w-full flex flex-col justify-center py-20 md:pl-10  items-center md:items-start">
-          <div className="lg:w-[600px] w-[300px] sm:w-[500px] md:w-[700px] ">
-            <h1 className="font-bold md:text-[2.2em] px-2 text-[1.7em] text-mediumlight  ">
+        <div className="w-full flex flex-col justify-center py-20   items-center md:items-start">
+          <div className="lg:w-[600px]  sm:w-[500px] md:w-[700px] w-full px-8 lg:px-0">
+            <h1 className="font-bold md:text-[2.2em]  text-[1.7em] text-[#262626]  ">
               Por que eu preciso do
             </h1>
-            <img src={logov2} className="h-[50px]  px-2" />
+            <img src={logov2} className="h-[50px]  " />
           </div>
-          <div className="mt-12 lg:text-[1.2em] px-2 2xl:text-[1.2em]  xl:w-[600px] lg:w-[500px] md:w-[700px] w-[300px] sm:w-[500px]">
-            <div className="text-mediumlight">
+          <div className="mt-12 lg:text-[1.2em]  2xl:text-[1.2em]  xl:w-[600px] lg:w-[500px] md:w-[700px] px-8 lg:px-0  sm:w-[500px]">
+            <div className="text-[#262626]">
               <p className="font-bold">
                 {' '}
                 Você já sentiu aquela vontade de fazer algo diferente, explorar
@@ -40,10 +40,10 @@ export function Lead() {
               </p>
             </div>
             <div className="  mt-10  ">
-              <h1 className="font-bold text-mediumlight text-[28px] ">
+              <h1 className="font-bold text-[#262626] text-[28px] ">
                 Tá esperando o quê?
               </h1>
-              <p className="mt-10 lg:text-[1.2rem] text-mediumlight ">
+              <p className="mt-10 lg:text-[1.2rem] text-[#262626] ">
                 Clique para baixar o app e venha viver toda a experiência deste
                 local
                 <span className="font-bold">
@@ -53,18 +53,12 @@ export function Lead() {
                 com bastante economia.
               </p>
             </div>
-            <img
-              src={bgphone}
-              className="lg:hidden block mx-auto"
-            />
+            <img src={bgphone} className="lg:hidden block mx-auto" />
             <Link cn="mt-10" text="clique e baixe o app" link="lorem" />
           </div>
         </div>
       </div>
-      <img
-        src={bgphone}
-        className="absolute right-0 h-full lg:block hidden "
-      />
+      <img src={bgphone} className="absolute right-0 h-full lg:block hidden " />
     </section>
   );
 }

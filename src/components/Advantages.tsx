@@ -1,6 +1,6 @@
-import icon3 from "../assets/images/icons/icon3.png"
-import icon2 from "../assets/images/icons/icon1.png"
-import icon1 from "../assets/images/icons/icon2.png"
+import icon3 from '../assets/images/icons/icon3.png';
+import icon2 from '../assets/images/icons/icon1.png';
+import icon1 from '../assets/images/icons/icon2.png';
 const arrAdvantages = [
   {
     icon: icon3,
@@ -22,7 +22,7 @@ const arrAdvantages = [
 export function Advantages() {
   return (
     <section className="lg:h-[296px] ">
-      <div className="w-full h-full py-20 lg:p-0 bg-[#1f331e] ">
+      <div className="w-full h-full py-20 lg:p-0 bg-mediumlight ">
         <div className="container mx-auto w-full  md:flex justify-around h-full lg:gap-x-8 ">
           {arrAdvantages.map((item) => {
             return (
@@ -34,10 +34,10 @@ export function Advantages() {
                   src={item.icon}
                   className="lg:w-[78px] lg:h-[78px] w-[44px] h-[44px] "
                 />
-                <h1 className="font-bold lg:text-[3.1em] text-[1.5em] text-[#6aed64] mt-2">
+                <h1 className="font-bold lg:text-[3.1em] text-[1.5em] text-[#ffffff] mt-2">
                   {item.title}
                 </h1>
-                <h2 className="lg:text-[1.2em] text-[#64ed8d] font-bold">
+                <h2 className="lg:text-[1.2em] text-light font-bold">
                   {item.subtitle}
                 </h2>
               </div>

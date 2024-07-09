@@ -1,11 +1,11 @@
-import logo from "../assets/images/logo.png"
+import logo from '../assets/images/logo.png';
 export function Footer() {
   return (
     <footer className="h-[162px] bg-[#F1F1F1] ">
-      <div className="w-full h-full bg-heavy">
+      <div className="w-full h-full bg-mediumlight">
         <div className="w-full h-full container mx-auto flex flex-col justify-center items-center">
           <img src={logo} className="h-[50px]  " />
-          <div className="mt-5 uppercase text-center  md:text-[0.9em] text-[0.6em] text-medium">
+          <div className="mt-5 uppercase text-center  md:text-[0.8em] text-[0.6em] text-[#ffffff]">
             <h2 className=" ">
               @2024 Desconto Urbano. Todos os direitos resevados.
             </h2>
