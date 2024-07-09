@@ -31,14 +31,14 @@ export function Faq() {
             </span>
           </h1>
         </div>
-        <div className="transition-all duration-300  z-50  w-full mx-auto lg:pl-40 md:pl-20  ">
+        <div className="transition-all duration-300 absolute left-0  z-50  w-full mx-auto  flex flex-col items-center ">
           <h1 className="font-bold text-black lg:text-[2.3em] text-[1.4em] md:text-left text-center ">
             Perguntas frequentes
           </h1>
-          <div className="mt-5 z-50 absolute md:pr-0 md:pl-0 pl-10 pr-10">
+          <div className="mt-5 z-50 px-10">
             {arrQuestions.map((item) => {
               return (
-                <div className=" z-50">
+                <div key={item.title} className=" z-50 ">
                   <Dropdown title={item.title} description={item.description} />
                 </div>
               );

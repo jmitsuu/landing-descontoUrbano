@@ -4,10 +4,10 @@ export function Hero() {
   return (
     <section className="2xl:h-[1300px] xl:h-[1104px] lg:h-[1000px] md:h-full    overflow-hidden ">
       <div className="w-full h-full bg-cover flex  bg-center bg-[url('../src/assets/images/bg.jpeg')]">
-        <div className="container mx-auto  2xl:mt-36 lg:mt-24 md:my-32 my-20  md:flex md:flex-row flex-col   ">
-          <div className="2xl:w-[650px] md:w-[580px] w-full lg:p-0 p-5 2xl:mx-0   ">
+        <div className="lg:px-20 2xl:mt-32 lg:mt-24 md:my-32 my-20  md:flex md:flex-row flex-col   ">
+          <div className="2xl:w-[850px] md:w-[580px] w-full lg:p-0 p-5 2xl:mx-0   ">
             <div className="  w-full flex">
-              <h1 className=" uppercase 2xl:text-[1.8em] xl:text-[1.5em]  md:text-[1.5em] text-[0.8em]  font-bold text-[#FFFFFF] lg:px-6 px-1 sm:mx-0  py-2 rounded-2xl bg-[#1f331e] ">
+              <h1 className=" uppercase 2xl:text-[1.8em] xl:text-[1.5em]  md:text-[1.5em] sm:text-[1.3rem] text-[0.8em]  font-bold text-[#FFFFFF] lg:px-6 px-1 sm:mx-0  py-2 rounded-2xl bg-[#1f331e] ">
                 Economize no melhor da região
               </h1>
             </div>
@@ -46,11 +46,11 @@ export function Hero() {
               />
             </div>
           </div>
-          <div className="lg:ml-20  ">
+          <div className="lg:ml-40  ">
             {/* <Off /> */}
             <img
               src={desconto}
-              className="md:block hidden  md:h-[160px] lg:h-[400px]"
+              className="md:block hidden  md:h-[170px] lg:h-[300px] xl:h-[400px]"
             />
           </div>
         </div>
