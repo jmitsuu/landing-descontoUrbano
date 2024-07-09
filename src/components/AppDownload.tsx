@@ -3,7 +3,7 @@ import applestore from '../assets/images/icons/appstore.png';
 import sideImg from '../assets/images/sideImg.jpeg';
 export function AppDownload() {
   return (
-    <section className="2xl:h-[800px]  lg:h-[558px] md:h-[500px] sm:h-[500px] overflow-hidden bg-mediumlight">
+    <section className="2xl:h-[800px]   lg:h-[658px] md:h-[500px] sm:h-[500px] overflow-hidden bg-mediumlight">
       <div className="w-full h-full 2xl:pl-10 md:pl-10 flex md:flex-row flex-col items-center justify-between  relative">
         <div className=" py-20 2xl:pl-20">
           <div className="">
