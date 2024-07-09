@@ -2,7 +2,7 @@ import { Link } from './button/Link';
 import desconto from '../assets/images/desconto.png';
 export function Hero() {
   return (
-    <section className="2xl:h-[1300px] xl:h-[1104px] lg:h-[1000px] md:h-full    overflow-hidden ">
+    <section className="2xl:h-[1300px] xl:h-[1104px] lg:h-[1000px] md:h-full overflow-hidden ">
       <div className="w-full h-full bg-cover flex  bg-center bg-[url('../src/assets/images/bg.jpeg')]">
         <div className="lg:px-20 2xl:mt-32 lg:mt-24 md:my-32 my-20  md:flex md:flex-row flex-col   ">
           <div className="2xl:w-[850px] md:w-[580px] w-full lg:p-0 p-5 2xl:mx-0   ">

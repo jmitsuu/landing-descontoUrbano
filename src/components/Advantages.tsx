@@ -23,7 +23,7 @@ export function Advantages() {
   return (
     <section className="lg:h-[296px] ">
       <div className="w-full h-full py-20 lg:p-0 bg-mediumlight ">
-        <div className="container mx-auto w-full  md:flex justify-around h-full lg:gap-x-8 ">
+        <div className="container mx-auto w-full md:flex justify-around h-full lg:gap-x-8 ">
           {arrAdvantages.map((item) => {
             return (
               <div
