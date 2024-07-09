@@ -12,7 +12,7 @@ export function Mobile() {
             src={simbolo}
             className="md:h-[50px] h-[50px] md:mx-0 md:pr-1 mx-auto"
           />
-          <h1 className="lg:text-[1.8em] md:text-[1.4em] md:mt-0 mt-2 text-[1.2em] text-heavy">
+          <h1 className="lg:text-[1.8em] md:text-[1.4em] md:mt-0 mt-2 text-[1.2em] text-[#262626]">
             Um mundo de <span className="font-bold">facilidade</span> e{' '}
             <span className="font-bold">experiência!</span>
           </h1>
