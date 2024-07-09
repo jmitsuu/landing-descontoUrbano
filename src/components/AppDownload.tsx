@@ -3,9 +3,9 @@ import applestore from '../assets/images/icons/appstore.png';
 import sideImg from '../assets/images/sideImg.jpeg';
 export function AppDownload() {
   return (
-    <section className=" lg:h-[758px] md:h-[500px] sm:h-[500px] overflow-hidden bg-mediumlight">
-      <div className="w-full h-full lg:pl-20 md:pl-10 flex md:flex-row flex-col items-center justify-between  relative">
-        <div className=" py-20  ">
+    <section className=" lg:h-[858px] md:h-[500px] sm:h-[500px] overflow-hidden bg-mediumlight">
+      <div className="w-full h-full 2xl:pl-20 md:pl-10 flex md:flex-row flex-col items-center justify-between  relative">
+        <div className=" py-20 2xl:pl-20">
           <div className="">
             <h1 className="font-bold lg:text-[4.8em] md:text-[2.9em] text-[2.9em] text-[#ffffff]">
               Baixe agora
@@ -45,7 +45,7 @@ export function AppDownload() {
         </div>
         <img
           src={sideImg}
-          className="max-w-[1100px]  h-full object-center md:block hidden pl-14 lg:float-right"
+          className=" 2xl:w-[1400px] h-full  md:block hidden pl-14 "
         />
       </div>
     </section>
