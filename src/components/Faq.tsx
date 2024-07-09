@@ -22,7 +22,7 @@ const arrQuestions = [
 
 export function Faq() {
   return (
-    <section className="min-h-[600px]  relative pb-20 overflow-hidden bg-[#F1F1F1] ">
+    <section className="min-h-[590px]  relative pb-20 overflow-hidden bg-[#F1F1F1] ">
       <div className="container m-10 h-full w-full mt-20  mx-auto flex   ">
         <div className=" flex h-full  w-[220px]  items-center disabled top-0 absolute ">
           <h1 className=" font-bold text-mediumlight/20  w-20 space-y-0  flex h-full items-center disabled  absolute">
