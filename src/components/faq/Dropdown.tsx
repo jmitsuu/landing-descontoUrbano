@@ -17,7 +17,7 @@ export function Dropdown({ title, description }: typeQuestions) {
         <div
           onClick={toggleDropdown}
           key={title}
-          className={`gap-4 xl:w-[926px] lg:h-[66px] md:w-[606px] h-[53px]  my-2 relative  bg-mediumlight hover:border-heavy border-2 flex items-center justify-between lg:px-10 px-5 rounded-lg cursor-pointer ${
+          className={`gap-4 xl:w-[926px] lg:h-[66px] md:w-[606px] h-[53px]  my-2 relative  bg-mediumlight/90 hover:border-heavy border-2 flex items-center justify-between lg:px-10 px-5 rounded-lg cursor-pointer ${
             isOpen ? 'border-heavy ' : ''
           }`}
         >
